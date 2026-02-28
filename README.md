@@ -1,6 +1,6 @@
-# Omniclaw: The Omnipotent Personal Orchestrator
+# Omniclaw: The Omnipotent Personal AI Orchestrator
 
-![The Omnipotent Personal Orchestrator](./static/images/omniclaw.png)
+![The Omnipotent Personal AI Orchestrator](./static/images/omniclaw.png)
 
 ## Overview
 
