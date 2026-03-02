@@ -39,6 +39,7 @@ The Omniclaw architecture follows a structured modular pattern, as visualised in
 4.  **MCP Connectivity Layer:** The translation layer that allows the Core to interface standardly with diverse external applications (Databases, SaaS tools, etc.).
 5.  **LLM Access Layer:** A robust middleware that routes inference requests to your configured Large Language Model providers.
 
+![Omniclaw Architecture](./static/images/brain.png)
 ---
 
 ## Getting Started
