@@ -1,7 +1,7 @@
 import logging
 import sys
 from uvicorn.logging import DefaultFormatter
-import backend.src.utils.AppConfig as AppConfig
+import backend.src.utils.appConfig as AppConfig
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +19,7 @@ def setup_logging() -> logging.Logger:
     # Remove all existing handlers to prevent accumulation
     for handler in logger.handlers:
         logger.removeHandler(handler)
-    
+
     handlers = []
            
     # Create a new handler
