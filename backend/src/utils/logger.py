@@ -1,7 +1,7 @@
 import logging
 import sys
 from uvicorn.logging import DefaultFormatter
-import backend.src.utils.appConfig as AppConfig
+import backend.src.utils.AppConfig as AppConfig
 
 logger = logging.getLogger(__name__)
 

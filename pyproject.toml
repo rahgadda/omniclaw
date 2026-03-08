@@ -5,8 +5,11 @@ description = "The Omnipotent Personal AI Orchestrator"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "colorama>=0.4.6",
     "pandas>=3.0.1",
+    "pyfiglet>=1.0.4",
     "python-dotenv>=1.2.2",
+    "rich>=14.3.3",
     "uvicorn>=0.41.0",
 ]
 
