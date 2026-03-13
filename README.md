@@ -1,12 +1,12 @@
-# OmniclawPA: The Omnipotent Personal AI Orchestrator
+# OmniClawPA: The Omnipotent Personal AI Orchestrator
 
 ![The Omnipotent Personal AI Orchestrator](./static/images/omniclawpa.png)
 
 ## Overview
 
-**OmniclawPA** is a powerful, self-hosted AI agent designed to act as your proactive, personal orchestrator. It bridges the gap between conversational AI and automated execution, serving as a centralized hub that manages your digital environment from a single point of contact.
+**OmniClawPA** is a powerful, self-hosted AI agent designed to act as your proactive, personal orchestrator. It bridges the gap between conversational AI and automated execution, serving as a centralized hub that manages your digital environment from a single point of contact.
 
-Built as an extension of the `openclaw` paradigm, OmniclawPA is designed to reach out, grasp different endpoints, and manage complex, multi-step tasks across your system, all while adhering to the highest standards of privacy and control.
+Built as an extension of the `openclaw` paradigm, OmniClawPA is designed to reach out, grasp different endpoints, and manage complex, multi-step tasks across your system, all while adhering to the highest standards of privacy and control.
 
 ---
 
@@ -31,15 +31,15 @@ Designed to meet you where you already are. Access your personal orchestrator th
 
 ## Technical Architecture
 
-The OmniclawPA architecture follows a structured modular pattern, as visualised in the header diagram:
+The OmniClawPA architecture follows a structured modular pattern, as visualised in the header diagram:
 
 1.  **Gateways (Input/Output):** Secure entry points for user communication (e.g., Telegram Bot API).
-2.  **OmniclawPA Core:** The central brain responsible for parsing user intent, managing conversational memory, orchestrating skills, and dispatching scheduled tasks.
+2.  **OmniClawPA Core:** The central brain responsible for parsing user intent, managing conversational memory, orchestrating skills, and dispatching scheduled tasks.
 3.  **Agent Skills & Jobs Scheduler:** Modular execution components defining *how* tasks are performed and *when* they are triggered.
-4.  **MCP Connectivity Layer:** The translation layer that allows the Core to interface standardly with diverse external applications (Databases, SaaS tools, etc.).
+4.  **MCP Connectivity Layer:** The translation layer that allows the Core to interface standard with diverse external applications (Databases, SaaS tools, etc.).
 5.  **LLM Access Layer:** A robust middleware that routes inference requests to your configured Large Language Model providers.
 
-![OmniclawPA Architecture](./static/images/brain.png)
+![OmniClawPA Architecture](./static/images/brain.png)
 ---
 
 ## Getting Started
