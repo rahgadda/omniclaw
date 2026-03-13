@@ -1,5 +1,5 @@
 [project]
-name = "omniclaw"
+name = "omniclawpa"
 version = "0.0.1"
 description = "The Omnipotent Personal AI Orchestrator"
 readme = "README.md"
@@ -7,14 +7,16 @@ requires-python = ">=3.11"
 dependencies = [
     "colorama>=0.4.6",
     "pandas>=3.0.1",
+    "playwright>=1.58.0",
     "pyfiglet>=1.0.4",
     "python-dotenv>=1.2.2",
+    "python-telegram-bot>=22.6",
     "rich>=14.3.3",
     "uvicorn>=0.41.0",
 ]
 
 [project.scripts]
-omniclaw = "backend.src.app:main"
+omniclawpa = "backend.src.app:main"
 
 [build-system]
 requires = ["hatchling"]

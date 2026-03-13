@@ -6,7 +6,7 @@ from rich import box
 from pyfiglet import Figlet
 from colorama import init
 
-import backend.src.utils.AppConfig as AppConfig
+import backend.src.utils.app_config as AppConfig
 
 init()
 console = Console()
@@ -18,7 +18,7 @@ RESET = "\033[0m"
 def display_welcome_message() -> None:
     console.clear()
 
-    banner = Figlet(font="standard").renderText("OmniClaw")
+    banner = Figlet(font="standard").renderText("OmniClawPA")
     print(ORANGE + banner + RESET)
 
     config = AppConfig.AppConfig()
@@ -34,10 +34,12 @@ def display_welcome_message() -> None:
     table.add_column("Setting", style="white", justify="left")
     table.add_column("Value", style="white", justify="right")
 
-    table.add_row("Debug Mode", str(config.debug_mode))
+    table.add_row("OmniClawPA Home", str(config.OMNICLAW_HOME))
+    table.add_row("Debug Mode", str(config.DEBUG_MODE))
     table.add_row("Gateway Port", str(config.GATEWAY_PORT))
     table.add_row("UI Port", str(config.UI_PORT))
     table.add_row("DB Storage", str(config.DB_STORAGE))
+    table.add_row("Chrome Profile Dir", str(config.CHROME_PROFILE_DIR))
 
     panel = Panel(
         table,

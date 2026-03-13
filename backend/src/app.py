@@ -1,4 +1,4 @@
-import backend.src.utils.AppConfig as AppConfig
+import backend.src.utils.app_config as AppConfig
 import backend.src.utils.logger as Logger
 from backend.src.cli.cli import display_welcome_message
 

@@ -10,12 +10,12 @@ v0.1 (Initial)
 2026-03-01
 
 ## Author
-Omniclaw Product Manager
+OmniclawPA Product Manager
 
 ---
 
 ## 1. Purpose
-Define functional requirements for a command-line interface (CLI) that starts Omniclaw backend services and supports:
+Define functional requirements for a command-line interface (CLI) that starts OmniclawPA backend services and supports:
 1. Installation/runtime variables passed as environment variables.
 2. Transaction variables passed through JSON, with support to update and refresh values when required.
 
@@ -46,7 +46,7 @@ Define functional requirements for a command-line interface (CLI) that starts Om
 ## 4. Functional Requirements
 
 ### 4.1 CLI Startup Command
-- **FR-001**: System shall provide a CLI command to start backend services (example: `omniclaw start`).
+- **FR-001**: System shall provide a CLI command to start backend services (example: `omniclawpa start`).
 - **FR-002**: CLI shall support starting all backend services or a specific service by name.
 - **FR-003**: CLI shall provide `--help` output describing command usage, required inputs, and examples.
 

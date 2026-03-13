@@ -10,12 +10,12 @@ v0.1 (Initial)
 2026-03-01
 
 ## Author
-Omniclaw Product Manager
+OmniclawPA Product Manager
 
 ---
 
 ## 1. Purpose
-Define the first functional requirements for enabling Omniclaw to persist and retrieve:
+Define the first functional requirements for enabling OmniclawPA to persist and retrieve:
 1. **Setup Data** (configuration and initial system data)
 2. **Transactional Data** (runtime actions, logs, and operation records)
 
@@ -42,14 +42,14 @@ The system must support **two interchangeable storage providers**:
 ---
 
 ## 3. Business Goals
-- Ensure Omniclaw can run in low-dependency mode using Local Storage.
+- Ensure OmniclawPA can run in low-dependency mode using Local Storage.
 - Enable no-code visibility/editing of data through Google Sheets.
 - Maintain consistent behavior across both backends through a unified storage contract.
 
 ---
 
 ## 4. User Roles
-- **Admin/User**: Configures and uses Omniclaw.
+- **Admin/User**: Configures and uses OmniclawPA.
 - **System**: Reads/writes setup and transactional data during execution.
 
 ---
