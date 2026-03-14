@@ -211,4 +211,5 @@ __marimo__/
 test.py
 telegram_test.py
 discord_text.py
+slack_test.py
 Rahul
